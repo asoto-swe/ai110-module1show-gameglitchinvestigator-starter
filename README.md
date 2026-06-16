@@ -31,6 +31,8 @@ It wrote the code, ran away, and now the game is unplayable.
 
 This is all listed in reflection.md. Please refer to this file for the answer to these questions.
 
+Please refer to the github repo for the screenshot of winning under image.png.
+
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
