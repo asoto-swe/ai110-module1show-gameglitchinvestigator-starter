@@ -19,7 +19,7 @@ Document at least 3 bugs you found. Add rows as needed.
 | | | | |
 
 ---
-
+The website's design was pretty basic but straight forward. When I tried to play the game I recieved multiple errors. I tried to adjust the difficulty which is supposed to change the range of the guesses but it failed. The hints given by the program were inaccurate to your guess. Also, when the user clicks "New Game" it restarts the game but does not allow for any more inputs. There are several issues with this game.
 ## 2. How did you use AI as a teammate?
 
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
