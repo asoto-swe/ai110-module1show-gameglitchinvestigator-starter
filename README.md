@@ -29,17 +29,21 @@ It wrote the code, ran away, and now the game is unplayable.
 - [ ] Detail which bugs you found.
 - [ ] Explain what fixes you applied.
 
+This is all listed in reflection.md. Please refer to this file for the answer to these questions.
+
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. Open the app to load
+2. Select player difficulty on the left.
+3. Player must enter a numerical guess.
+4. Player must submit the guess and the game will check the guess.
+5. The score will update based on outcome.
+6. The game will check the win condition and will update the status.
+7. If the game is still active and the player has not lost or won then attempt another guess.
+8. Once the game is finished then click New Game and it will reset the game.
 
-**Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
 ## 🧪 Test Results
 
@@ -48,6 +52,12 @@ Describe your fixed game in numbered steps so a reader can follow along without 
 # pytest tests/
 # ========================= X passed in 0.XXs =========================
 ```
+4 passed in 0.04s
+tests/test_game_logic.py::test_winning_guess                          PASSED
+tests/test_game_logic.py::test_guess_too_high                         PASSED
+tests/test_game_logic.py::test_guess_too_low                          PASSED
+tests/test_game_logic.py::test_hint_message_direction_matches_outcome PASSED
+
 
 ## 🚀 Stretch Features
 
